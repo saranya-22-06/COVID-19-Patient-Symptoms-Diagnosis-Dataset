@@ -36,9 +36,9 @@ This project analyzes a COVID-19 patient symptoms dataset to identify patterns b
 | `chest_pain` | Binary (0/1) | Presence of chest pain |
 | `covid_result` | Binary (0/1) | **Target variable** — COVID-19 diagnosis (1 = Positive) |
 
----
-
 ## Project Structure
+
+```
 COVID-19-Patient-Symptoms-Diagnosis-Dataset-main/
 │
 ├── Desktop/405 GROUP PROJECT/
@@ -53,6 +53,8 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset-main/
 ├── FinalSubmissionProject.ipynb        # Final combined submission
 ├── DataScienceFinalProject.ipynb       # Full project notebook
 └── ProjectDescription.ipynb           # Project description and objectives
+```
+
 ---
 
 ## Analysis Stages
