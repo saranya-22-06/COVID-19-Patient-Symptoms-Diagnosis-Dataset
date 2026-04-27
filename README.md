@@ -38,24 +38,30 @@ This project analyzes a COVID-19 patient symptoms dataset to identify patterns b
 
 ## Project Structure
 
-```
-COVID-19-Patient-Symptoms-Diagnosis-Dataset-main/
+COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 │
-├── Desktop/405 GROUP PROJECT/
-│   ├── Project1.ipynb                  # Main group project notebook
-│   ├── Project1 Original.ipynb         # Original version
-│   └── data/
-│       └── covid19_patient_symptoms_diagnosis.csv
+├── data/
+│   └── covid19_patient_symptoms_diagnosis.csv
 │
-├── COVID-19-Project-Stage-1.ipynb      # Stage 1: Data cleaning & EDA
-├── StatisticalAnalysis&VisualizationPart.ipynb  # Statistical analysis
-├── Project_modeling.ipynb              # Predictive modeling
-├── FinalSubmissionProject.ipynb        # Final combined submission
-├── DataScienceFinalProject.ipynb       # Full project notebook
-└── ProjectDescription.ipynb           # Project description and objectives
-```
-
----
+├── notebooks/
+│   ├── COVID-19-Project-Stage-1.ipynb
+│   ├── DataScienceFinalProject.ipynb
+│   ├── FinalSubmissionProject.ipynb
+│   ├── Project1.ipynb
+│   ├── Project1 Original.ipynb
+│   ├── ProjectDescription.ipynb
+│   ├── Project_modeling.ipynb
+│   └── StatisticalA nalysis&VisualizationPart.ipynb
+│
+├── figures/
+│   ├── section5_comorbidity_distribution.png
+│   ├── section6_outlier_detection.png
+│   ├── section8_age_categories.png
+│   └── section9_age_gender_breakdown.png
+│
+├── src/                    # Source code scripts
+├── report/                 # Final report
+└── README.md
 
 ## Analysis Stages
 
