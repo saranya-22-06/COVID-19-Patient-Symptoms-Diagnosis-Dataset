@@ -39,28 +39,31 @@ This project analyzes a COVID-19 patient symptoms dataset to identify patterns b
 ## Project Structure
 
 ```text
-COVID-19-Patient-Symptoms-Diagnosis-Dataset/
+COVID-19-Patient-Symptoms-Diagnosis-Dataset/  
 |
 |-- data/
-|   |-- covid19_patient_symptoms_diagnosis.csv
+|   |-- covid19_patient_symptoms_diagnosis.csv       // Provided Data Set
 |
 |-- notebooks/
-|   |-- COVID-19-Project-Stage-1.ipynb
-|   |-- DataScienceFinalProject.ipynb
-|   |-- FinalSubmissionProject.ipynb
-|   |-- Project1.ipynb
-|   |-- Project1 Original.ipynb
-|   |-- ProjectDescription.ipynb
-|   |-- Project_modeling.ipynb
-|   |-- StatisticalA nalysis&VisualizationPart.ipynb
+|   |-- COVID-19-Project-Stage-1.ipynb               // Saranya Work
+|   |-- DataScienceFinalProject.ipynb                // Saranya Work
+|   |-- FinalSubmissionProject.ipynb  
+|   |-- Project1.ipynb                               // Titilope Work
+|   |-- Project1 Original.ipynb                      // Titilope Work
+|   |-- ProjectDescription.ipynb                     // Saranya Work
+|   |-- Project_modeling.ipynb                       // Maisha Work
+|   |-- StatisticalA nalysis&VisualizationPart.ipynb // Saranya Work
 |
 |-- figures/
+|   |-- section4_confusionmatrix.png
 |   |-- section5_comorbidity_distribution.png
 |   |-- section6_outlier_detection.png
+|   |-- section6_outlier_detection_fahrenheit.png
 |   |-- section8_age_categories.png
 |   |-- section9_age_gender_breakdown.png
 |
 |-- src/
+|   |-- FinalSubmissionProject.ipynb
 |-- report/
 |-- README.md
 ```
