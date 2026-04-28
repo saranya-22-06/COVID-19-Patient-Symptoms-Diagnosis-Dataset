@@ -47,20 +47,18 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |-- notebooks/
 |   |-- COVID-19-Project-Stage-1.ipynb               // Saranya Work
 |   |-- DataScienceFinalProject.ipynb                // Saranya Work
-|   |-- FinalSubmissionProject.ipynb  
 |   |-- Project1.ipynb                               // Titilope Work
-|   |-- Project1 Original.ipynb                      // Titilope Work
 |   |-- ProjectDescription.ipynb                     // Saranya Work
 |   |-- Project_modeling.ipynb                       // Maisha Work
 |   |-- StatisticalA nalysis&VisualizationPart.ipynb // Saranya Work
 |
 |-- figures/
-|   |-- section4_confusionmatrix.png
-|   |-- section5_comorbidity_distribution.png
-|   |-- section6_outlier_detection.png
-|   |-- section6_outlier_detection_fahrenheit.png
-|   |-- section8_age_categories.png
-|   |-- section9_age_gender_breakdown.png
+|   |-- section4_confusionmatrix.png                 // Maisha Work
+|   |-- section5_comorbidity_distribution.png        // Titilope Work
+|   |-- section6_outlier_detection.png               // Titilope Work
+|   |-- section6_outlier_detection_fahrenheit.png    // Titilope Work
+|   |-- section8_age_categories.png                  // Titilope Work
+|   |-- section9_age_gender_breakdown.png            // Titilope Work
 |
 |-- src/
 |   |-- FinalSubmissionProject.ipynb
