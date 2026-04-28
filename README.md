@@ -47,9 +47,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |-- notebooks/
 |   |-- COVID-19-Project-Stage-1.ipynb               // Saranya Work
 |   |-- DataScienceFinalProject.ipynb                // Saranya Work
-|   |-- FinalSubmissionProject.ipynb  
 |   |-- Project1.ipynb                               // Titilope Work
-|   |-- Project1 Original.ipynb                      // Titilope Work
 |   |-- ProjectDescription.ipynb                     // Saranya Work
 |   |-- Project_modeling.ipynb                       // Maisha Work
 |   |-- StatisticalA nalysis&VisualizationPart.ipynb // Saranya Work
