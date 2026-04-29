@@ -90,12 +90,16 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 ## Analysis Stages
 
 **Data Cleaning & EDA**
-- Handle missing values (comorbidity column filled with "No Comorbidities")
-- Duplicate detection and removal
-- Outlier detection using IQR method on age, oxygen level, and body temperature
-- Exploratory analysis of symptom distributions and demographic breakdowns
-- Groupby and aggregation analysis by comorbidity, age category, and body temperature category
-- Interactive Plotly figures for symptom rate by age group and COVID positive rate by age group
+- Duplicate detection: zero duplicates confirmed across all 5,000 records
+- Missing value handling: comorbidity column had 2,725 missing values (54.5%); filled with "No Comorbidities."
+- Outlier detection using IQR method on age, oxygen level, and body temperature. Zero outliers found in all three columns
+- Clinical threshold analysis: mean oxygen level 91.9% (below healthy 95% threshold); mean body temperature 38.5°C / 101.3°F (above normal 37°C threshold)
+- Age category binning into 6 life stage groups: Minors, Young Adult, Adult, Middle Aged, Senior, Elderly
+- Symptom frequency analysis: overall rates and broken down by COVID result, age group, gender, comorbidity, and oxygen level group
+- Strongest symptom predictor analysis — COVID positive rate compared with vs without each symptom
+- Demographic summaries across gender, comorbidity, oxygen level group, and COVID result
+- Groupby and aggregation analysis across all subgroups covering average symptom count, positive rate, age, and clinical measurements
+- Interactive Plotly figures: symptom rate by age group (9 symptoms × 6 groups) and COVID positive rate by age group with mean reference line and color-coded bars
 
 Note: Every memmber of the group did a portion of data cleaning for null and duplicate records on their personal repositories, therefore should be seen as a joint contribution.
 
