@@ -125,7 +125,7 @@ Every group member had their own version of import set up and introductory descr
 - Random Forest outperformed Logistic Regression, confirming that symptoms, oxygen level, body temperature, and age are strong predictors of COVID-19 diagnosis
 - Model evaluated using confusion matrix
 
-**Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Maisha.**
+**Note: All Data Modeling present in the Final Project Submission was done by Maisha.**
 
 **Stage 4 — Visualization**
 - Correlation heatmap across all features
