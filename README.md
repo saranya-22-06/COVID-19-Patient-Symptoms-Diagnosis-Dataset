@@ -53,7 +53,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |-- notebooks/
 |   |-- COVID-19-Project-Stage-1.ipynb                  // Saranya Work
 |   |-- DataScienceFinalProject.ipynb                   // Saranya Work
-|   |-- TitiEDAProject1.ipynb                           // Titilope Work (EDA + Interactive Plotly Figures)
+|   |-- TitiEDAProject1.ipynb                           // Titilope Work (EDA)
 |   |-- ProjectDescription.ipynb                        // Project Overview written by Saranya
 |   |-- Project_modeling_mf.ipynb                       // Maisha Work (Modeling)
 |   |-- StatisticalAnalysis&VisualizationPart.ipynb     // Saranya Work (Stats & Viz)
@@ -82,7 +82,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- FinalSubmissionProject.ipynb     // Final Submission — combined work of all three group members
 |
 |-- report/
-|-- README.md
+|-- README.md   Written by Titilope
 ```
 
 ---
