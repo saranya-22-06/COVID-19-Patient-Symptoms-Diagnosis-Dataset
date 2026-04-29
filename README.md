@@ -53,7 +53,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |-- notebooks/
 |   |-- COVID-19-Project-Stage-1.ipynb                  // Saranya Work
 |   |-- DataScienceFinalProject.ipynb                   // Saranya Work
-|   |-- TitiEDAProject1.ipynb                           // Titilope Work (EDA)
+|   |-- TitiEDAProject1.ipynb                           // Titilope Work (EDA + Interactive Plotly Figures)
 |   |-- ProjectDescription.ipynb                        // Project Overview
 |   |-- Project_modeling_mf.ipynb                       // Maisha Work (Modeling)
 |   |-- StatisticalAnalysis&VisualizationPart.ipynb     // Saranya Work (Stats & Viz)
@@ -75,6 +75,8 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- section6_outlier_detection_fahrenheit.png
 |   |-- section8_age_categories.png
 |   |-- section9_age_gender_breakdown.png
+|   |-- symptom_rate_by_age.png                         // Interactive figure (static export)
+|   |-- covid_positive_by_age.png                       // Interactive figure (static export)
 |
 |-- src/
 |   |-- FinalSubmissionProject.ipynb     // Final Submission — combined work of all three group members
@@ -93,6 +95,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 - Outlier detection using IQR method on age, oxygen level, and body temperature
 - Exploratory analysis of symptom distributions and demographic breakdowns
 - Groupby and aggregation analysis by comorbidity, age category, and body temperature category
+- Interactive Plotly figures for symptom rate by age group and COVID positive rate by age group
 
 **Stage 2 — Statistical Analysis & Hypothesis Testing**
 - Chi-square test used to test the relationship between categorical variables and COVID-19 outcome
@@ -119,6 +122,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 - Oxygen level group analysis
 - Comorbidity distribution before and after cleaning
 - Confusion matrix for Random Forest model
+- Interactive Plotly charts: symptom rate by age group and COVID positive rate by age group (with mean reference line and color-coded bars)
 
 ---
 
@@ -143,11 +147,13 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 - seaborn
 - scikit-learn
 - scipy
+- plotly
+- kaleido
 - jupyter
 
 Install dependencies:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
+pip install pandas numpy matplotlib seaborn scikit-learn scipy plotly kaleido jupyter
 ```
 
 ---
@@ -160,11 +166,18 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
 ```bash
 jupyter notebook src/FinalSubmissionProject.ipynb
 ```
-4. Run all cells in order (Kerne, Restart and Run All)
+4. Run all cells in order (Kernel → Restart and Run All)
+
+---
+
+## Interactive Figures
+
+The EDA notebook includes interactive Plotly charts that allow you to hover, toggle symptoms, and explore the data visually. To view them fully rendered, open the notebook on nbviewer:
+
+[View TitiEDAProject1.ipynb on nbviewer](https://nbviewer.org/github/saranya-22-06/COVID-19-Patient-Symptoms-Diagnosis-Dataset/blob/TitiEDA/TitiEDAProject1.ipynb)
 
 ---
 
 ## Authors
-CSC 405 Data Science, Spring 2026
-Group
- Maisha Fyruz, Saranya Yalla, Titilope Adeniyi
+CSC 405 Data Science, Spring 2026  
+Maisha Fyruz, Saranya Yalla, Titilope Adeniyi
