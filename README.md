@@ -174,7 +174,7 @@ jupyter notebook src/FinalSubmissionProject.ipynb
 
 The EDA notebook includes interactive Plotly charts that allow you to hover, toggle symptoms, and explore the data visually. To view them fully rendered, open the notebook on nbviewer:
 
-[View TitiEDAProject1.ipynb on nbviewer](https://nbviewer.org/github/saranya-22-06/COVID-19-Patient-Symptoms-Diagnosis-Dataset/blob/TitiEDA/TitiEDAProject1.ipynb)
+[View FinalSubmissionProject.ipynb on nbviewer](https://nbviewer.org/github/saranya-22-06/COVID-19-Patient-Symptoms-Diagnosis-Dataset/blob/main/src/FinalSubmissionProject.ipynb)
 
 ---
 
