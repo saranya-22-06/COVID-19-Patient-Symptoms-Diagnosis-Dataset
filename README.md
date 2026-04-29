@@ -53,15 +53,25 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- StatisticalA nalysis&VisualizationPart.ipynb // Saranya Work
 |
 |-- figures/
-|   |-- section4_confusionmatrix.png                 // Maisha Work
-|   |-- section5_comorbidity_distribution.png        // Titilope Work
-|   |-- section6_outlier_detection.png               // Titilope Work
-|   |-- section6_outlier_detection_fahrenheit.png    // Titilope Work
-|   |-- section8_age_categories.png                  // Titilope Work
-|   |-- section9_age_gender_breakdown.png            // Titilope Work
+|   |-- age_distribution_by_covid_result.png
+|   |-- age_outlier_detection.png
+|   |-- body_temp_categories_by_covid_result.png
+|   |-- body_temp_outlier_detection.png
+|   |-- correlation_heatmap.png
+|   |-- fever_based_on_gender.png
+|   |-- missing_values_heatmap.png
+|   |-- oxygen_level_outlier_detection.png
+|   |-- patient_count_by_age.png
+|   |-- patient_count_by_age_category.png
+|   |-- section4_confusionmatrix.png
+|   |-- section5_comorbidity_distribution.png
+|   |-- section6_outlier_detection.png
+|   |-- section6_outlier_detection_fahrenheit.png
+|   |-- section8_age_categories.png
+|   |-- section9_age_gender_breakdown.png
 |
 |-- src/
-|   |-- FinalSubmissionProject.ipynb
+|   |-- FinalSubmissionProject.ipynb           //Final Submission with combined work of all three group members.
 |-- report/
 |-- README.md
 ```
