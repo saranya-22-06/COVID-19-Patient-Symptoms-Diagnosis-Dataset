@@ -147,7 +147,8 @@ Every group member had their own version of import set up and introductory descr
 
 ## Key Findings
 
-- Overall COVID-19 positive rate: 53.8%
+- Overall COVID-19 positive rate: 52.0%
+- Overall COVID-19 negative rate: 48.0%
 - Most frequent symptoms: fatigue (59.98%), fever (56.74%), dry cough (49.32%)
 - Least frequent symptom: loss of taste (29.28%)
 - Patients with oxygen levels in the 85-89 range had the highest COVID-19 positive rate (70.57%)
