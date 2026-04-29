@@ -101,8 +101,8 @@ Note: Every memmber of the group did a portion of data cleaning for null and dup
 
 **Saranya made contributions to EDA with the creation of the all heatmaps,the age distribution by COVID-19 plot with corresponding code,the body temperature by covid result with corresponding code, and the single panel age, oxygen level and body temperature box plots.**
 
-**Saranya's version of the introductory import set up and introductory descriptive statistics are also included in the Final Submission Project 1 notebook.
-Every group member had their own version of import set up and introductory descriptive statistics in their own repositories.**
+**Saranya's version of the introductory import set up and descriptive statistics are also included in the Final Submission Project 1 notebook.
+Every group member had their own version of import set up and introductory descriptive statistics in their repositories.**
 
 **All other Exploratory Data Analysis was done by Titilope.**
 
@@ -154,9 +154,9 @@ Every group member had their own version of import set up and introductory descr
 
 ## Key Findings
 
-- Overall COVID-19 positive rate: ~53.8%*
-- Most frequent symptoms: fatigue (59%), fever (57%), dry cough (49%)
-- Least frequent symptom: loss of taste (29%)
+- Overall COVID-19 positive rate: ~52.0%*
+- Most frequent symptoms: fatigue (58.98%), fever (56.74%), dry cough (49.32%)
+- Least frequent symptom: loss of taste (29.28%)
 - Patients with oxygen levels in the 85–89 range had the highest COVID-19 positive rate (~67.8%)
 - Patients with normal oxygen levels (95–100) had the lowest positive rate (~33.5%)
 - Chi-square test revealed a statistically significant relationship between gender and fever at α = 0.05
