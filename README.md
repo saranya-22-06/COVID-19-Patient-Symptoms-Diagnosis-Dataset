@@ -5,14 +5,18 @@
 
 ## Overview
 
-This project analyzes a COVID-19 patient symptoms dataset to identify patterns between patient symptoms, demographic characteristics, and COVID-19 diagnosis outcomes. The analysis applies data science techniques including exploratory data analysis (EDA), statistical hypothesis testing, and predictive modeling to determine how well patient symptoms can predict a COVID-19 positive diagnosis.
+This project analyzes the COVID-19 Patient Symptoms and Diagnosis Dataset to understand the relationship between patient symptoms, demographic characteristics, and COVID-19 diagnosis outcomes. The dataset contains patient-level records including demographic information such as age and gender, along with clinical indicators like fever, body temperature, cough severity, loss of smell, chest pain, and other symptoms. Each record includes a label indicating whether the patient tested positive or negative for COVID-19.
+
+The goal of this project is to perform data cleaning, exploratory data analysis, preprocessing, statistical analysis and hypothesis testing, data modeling, and visualization to identify patterns in symptoms associated with COVID-19 infection. Through EDA, feature analysis, and predictive modeling, the project determines how well patient symptoms and demographic features can predict a COVID-19 diagnosis.
+
+The results can help demonstrate how data science and machine learning support healthcare decision-making, early disease detection, and understanding of symptom patterns in infectious diseases.
 
 ---
 
 ## Dataset
 
-**File:** `Desktop/405 GROUP PROJECT/data/covid19_patient_symptoms_diagnosis.csv`  
-**Records:** 5,000 patients  
+**File:** `data/covid19_patient_symptoms_diagnosis.csv`
+**Records:** 5,000 patients
 **Features:** 18 columns
 
 | Column | Type | Description |
@@ -36,21 +40,23 @@ This project analyzes a COVID-19 patient symptoms dataset to identify patterns b
 | `chest_pain` | Binary (0/1) | Presence of chest pain |
 | `covid_result` | Binary (0/1) | **Target variable** — COVID-19 diagnosis (1 = Positive) |
 
+---
+
 ## Project Structure
 
 ```text
-COVID-19-Patient-Symptoms-Diagnosis-Dataset/  
+COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |
 |-- data/
-|   |-- covid19_patient_symptoms_diagnosis.csv       // Provided Data Set
+|   |-- covid19_patient_symptoms_diagnosis.csv          // Provided Dataset
 |
 |-- notebooks/
-|   |-- COVID-19-Project-Stage-1.ipynb               // Saranya Work
-|   |-- DataScienceFinalProject.ipynb                // Saranya Work
-|   |-- TitiEDAProject1.ipynb                        // Titilope Work
-|   |-- ProjectDescription.ipynb                     // Saranya Work
-|   |-- Project_modeling.ipynb                       // Maisha Work
-|   |-- StatisticalA nalysis&VisualizationPart.ipynb // Saranya Work
+|   |-- COVID-19-Project-Stage-1.ipynb                  // Saranya Work
+|   |-- DataScienceFinalProject.ipynb                   // Saranya Work
+|   |-- TitiEDAProject1.ipynb                           // Titilope Work (EDA)
+|   |-- ProjectDescription.ipynb                        // Project Overview
+|   |-- Project_modeling_mf.ipynb                       // Maisha Work (Modeling)
+|   |-- StatisticalAnalysis&VisualizationPart.ipynb     // Saranya Work (Stats & Viz)
 |
 |-- figures/
 |   |-- age_distribution_by_covid_result.png
@@ -71,33 +77,48 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- section9_age_gender_breakdown.png
 |
 |-- src/
-|   |-- FinalSubmissionProject.ipynb           //Final Submission with combined work of all three group members.
+|   |-- FinalSubmissionProject.ipynb     // Final Submission — combined work of all three group members
+|
 |-- report/
 |-- README.md
 ```
 
+---
+
 ## Analysis Stages
 
 **Stage 1 — Data Cleaning & EDA**
-- Handle missing values (comorbidity column had ~54.5% missing → filled with "No Comorbidities")
+- Handle missing values (comorbidity column filled with "No Comorbidities")
+- Duplicate detection and removal
 - Outlier detection using IQR method on age, oxygen level, and body temperature
 - Exploratory analysis of symptom distributions and demographic breakdowns
+- Groupby and aggregation analysis by comorbidity, age category, and body temperature category
 
 **Stage 2 — Statistical Analysis & Hypothesis Testing**
-- Chi-square tests for categorical symptom variables vs. COVID-19 outcome
-- T-tests for continuous variables (oxygen level, body temperature) vs. outcome
+- Chi-square test used to test the relationship between categorical variables and COVID-19 outcome
+- Null Hypothesis: No relationship between gender and fever
+- Alternative Hypothesis: A relationship exists between gender and fever
+- Contingency table analysis with observed and expected values
+- Degree of freedom calculated at significance level α = 0.05
 - Symptom frequency analysis by COVID result (Positive vs. Negative)
 
 **Stage 3 — Data Modeling**
-- Feature engineering and preprocessing
-- Predictive modeling to classify COVID-19 diagnosis outcome
-- Model evaluation using accuracy, precision, recall, and F1 score
+- Features used: age, oxygen_level, body_temperature, fever, dry_cough, sore_throat, fatigue, headache, shortness_of_breath, loss_of_smell, loss_of_taste, chest_pain
+- 80/20 train-test split
+- Two models trained and compared:
+  - **Logistic Regression** (baseline) — Accuracy: **81.8%**
+  - **Random Forest** (advanced) — Accuracy: **86.1%**
+- Random Forest outperformed Logistic Regression, confirming that symptoms, oxygen level, body temperature, and age are strong predictors of COVID-19 diagnosis
+- Model evaluated using confusion matrix
 
 **Stage 4 — Visualization**
+- Correlation heatmap across all features
+- Missing values heatmap
 - Symptom frequency bar charts
-- Grouped comparisons (Overall vs. COVID+ vs. COVID-)
+- Grouped comparisons by age category, gender, and body temperature category
 - Oxygen level group analysis
-- Comorbidity distribution plots
+- Comorbidity distribution before and after cleaning
+- Confusion matrix for Random Forest model
 
 ---
 
@@ -108,21 +129,25 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 - Least frequent symptom: loss of taste (29%)
 - Patients with oxygen levels in the 85–89 range had the highest COVID-19 positive rate (~67.8%)
 - Patients with normal oxygen levels (95–100) had the lowest positive rate (~33.5%)
+- Chi-square test revealed a statistically significant relationship between gender and fever at α = 0.05
+- Random Forest achieved 86.1% accuracy, outperforming Logistic Regression at 81.8%
 
 ---
 
 ## Requirements
-Python 3.x
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-jupyter
+
+- Python 3.x
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- scipy
+- jupyter
 
 Install dependencies:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
 ```
 
 ---
@@ -131,14 +156,15 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 1. Clone or download the repository
 2. Navigate to the project folder
-3. Open the desired notebook in Jupyter:
+3. Open the final submission notebook:
 ```bash
-jupyter notebook FinalSubmissionProject.ipynb
+jupyter notebook src/FinalSubmissionProject.ipynb
 ```
-4. Run all cells in order (Kernel → Restart & Run All)
+4. Run all cells in order (Kerne, Restart and Run All)
 
 ---
 
 ## Authors
-
-Titilope, Maisha, Saranya Group 1 CSC 405 Data Science, Spring 2026
+CSC 405 Data Science, Spring 2026
+Group
+ Maisha Fyruz, Saranya Yalla, Titilope Adeniyi
