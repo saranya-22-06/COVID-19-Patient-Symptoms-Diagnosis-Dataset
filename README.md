@@ -82,7 +82,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- FinalSubmissionProject.ipynb     // Final Submission — combined work of all three group members
 |
 |-- report/
-|-- README.md   Written by Titilope
+|-- README.md   Formatted by Titilope
 ```
 
 ---
