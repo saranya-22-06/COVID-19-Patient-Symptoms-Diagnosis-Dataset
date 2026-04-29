@@ -154,7 +154,6 @@ Every group member had their own version of import set up and introductory descr
 
 ## Key Findings
 
-<<<<<<< HEAD
 - Overall COVID-19 positive rate: ~53.8%*
 - Most frequent symptoms: fatigue (59%), fever (57%), dry cough (49%)
 - Least frequent symptom: loss of taste (29%)
@@ -166,18 +165,6 @@ Every group member had their own version of import set up and introductory descr
 - The Random Forest model correctly classified 716 test samples.
 - Symptom and clinical features were useful predictors of COVID-19 status.
 
-=======
-- Overall COVID-19 positive rate: 52.0%
-- Overall COVID-19 negative rate: 48.0%
-- Most frequent symptoms: fatigue (59.98%), fever (56.74%), dry cough (49.32%)
-- Least frequent symptom: loss of taste (29.28%)
-- Patients with oxygen levels in the 85-89 range had the highest COVID-19 positive rate (70.57%)
-- Patients with normal oxygen levels (95–100) had the lowest positive rate (~35.94%)
-- Chi-square test revealed a statistically significant relationship between COVID-19 and fever at α = 0.05.
-  - Chi-square test revealed there is not enough evidence to strongly support a dependent relationship between gender and fever at α = 0.05.
-- t-test revealed there is not enough evidence to strongly support that oxygen levels and body temperature affects each other at α = 0.05.
-- Random Forest achieved 86.1% accuracy, outperforming Logistic Regression at 81.8%
->>>>>>> 452379263665f665fa4114924c51fcc37db276df
 
 ---
 
