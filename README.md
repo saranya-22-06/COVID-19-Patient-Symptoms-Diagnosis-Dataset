@@ -54,7 +54,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- COVID-19-Project-Stage-1.ipynb                  // Saranya Work
 |   |-- DataScienceFinalProject.ipynb                   // Saranya Work
 |   |-- TitiEDAProject1.ipynb                           // Titilope Work (EDA + Interactive Plotly Figures)
-|   |-- ProjectDescription.ipynb                        // Project Overview
+|   |-- ProjectDescription.ipynb                        // Project Overview written by Saranya
 |   |-- Project_modeling_mf.ipynb                       // Maisha Work (Modeling)
 |   |-- StatisticalAnalysis&VisualizationPart.ipynb     // Saranya Work (Stats & Viz)
 |
@@ -75,8 +75,8 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- section6_outlier_detection_fahrenheit.png
 |   |-- section8_age_categories.png
 |   |-- section9_age_gender_breakdown.png
-|   |-- symptom_rate_by_age.png                         // Interactive figure (static export)
-|   |-- covid_positive_by_age.png                       // Interactive figure (static export)
+|   |-- symptom_rate_by_age.png                         
+|   |-- covid_positive_by_age.png                       
 |
 |-- src/
 |   |-- FinalSubmissionProject.ipynb     // Final Submission — combined work of all three group members
@@ -89,13 +89,22 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 
 ## Analysis Stages
 
-**Stage 1 — Data Cleaning & EDA**
+** — Data Cleaning & EDA**
 - Handle missing values (comorbidity column filled with "No Comorbidities")
 - Duplicate detection and removal
 - Outlier detection using IQR method on age, oxygen level, and body temperature
 - Exploratory analysis of symptom distributions and demographic breakdowns
 - Groupby and aggregation analysis by comorbidity, age category, and body temperature category
 - Interactive Plotly figures for symptom rate by age group and COVID positive rate by age group
+
+Note: Every memmber of the group did a portion of data cleaning for null and duplicate records on their personal repositories, therefore should be seen as a joint contribution.
+
+Saranya made contributions to EDA with the creation of the all heatmaps,the age distribution by COVID-19 plot with corresponding code,the body temperature by covid result with corresponding code, and the single panel age, oxygen level and body temperature box plots. 
+
+Saranya's version of the introductory import set up and introductory descriptive statistics are also included in the Final Submission Project 1 notebook.
+Every group member had their own version of import set up and introductory descriptive statistics in their own repositories.
+
+All other Exploratory Data Analysis was done by Titilope.
 
 **Stage 2 — Statistical Analysis & Hypothesis Testing**
 - Chi-square test used to test the relationship between categorical variables and COVID-19 outcome
@@ -105,6 +114,8 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 - Degree of freedom calculated at significance level α = 0.05
 - Symptom frequency analysis by COVID result (Positive vs. Negative)
 
+-Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Saranya.
+
 **Stage 3 — Data Modeling**
 - Features used: age, oxygen_level, body_temperature, fever, dry_cough, sore_throat, fatigue, headache, shortness_of_breath, loss_of_smell, loss_of_taste, chest_pain
 - 80/20 train-test split
@@ -113,6 +124,8 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
   - **Random Forest** (advanced) — Accuracy: **86.1%**
 - Random Forest outperformed Logistic Regression, confirming that symptoms, oxygen level, body temperature, and age are strong predictors of COVID-19 diagnosis
 - Model evaluated using confusion matrix
+
+  Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Maisha.
 
 **Stage 4 — Visualization**
 - Correlation heatmap across all features
