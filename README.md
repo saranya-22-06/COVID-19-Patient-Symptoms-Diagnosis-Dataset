@@ -89,7 +89,7 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 
 ## Analysis Stages
 
-** — Data Cleaning & EDA**
+**Data Cleaning & EDA**
 - Handle missing values (comorbidity column filled with "No Comorbidities")
 - Duplicate detection and removal
 - Outlier detection using IQR method on age, oxygen level, and body temperature
@@ -99,14 +99,14 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 
 Note: Every memmber of the group did a portion of data cleaning for null and duplicate records on their personal repositories, therefore should be seen as a joint contribution.
 
-Saranya made contributions to EDA with the creation of the all heatmaps,the age distribution by COVID-19 plot with corresponding code,the body temperature by covid result with corresponding code, and the single panel age, oxygen level and body temperature box plots. 
+**Saranya made contributions to EDA with the creation of the all heatmaps,the age distribution by COVID-19 plot with corresponding code,the body temperature by covid result with corresponding code, and the single panel age, oxygen level and body temperature box plots.**
 
-Saranya's version of the introductory import set up and introductory descriptive statistics are also included in the Final Submission Project 1 notebook.
-Every group member had their own version of import set up and introductory descriptive statistics in their own repositories.
+**Saranya's version of the introductory import set up and introductory descriptive statistics are also included in the Final Submission Project 1 notebook.
+Every group member had their own version of import set up and introductory descriptive statistics in their own repositories.**
 
-All other Exploratory Data Analysis was done by Titilope.
+**All other Exploratory Data Analysis was done by Titilope.**
 
-**Stage 2 — Statistical Analysis & Hypothesis Testing**
+**Statistical Analysis & Hypothesis Testing**
 - Chi-square test used to test the relationship between categorical variables and COVID-19 outcome
 - Null Hypothesis: No relationship between gender and fever
 - Alternative Hypothesis: A relationship exists between gender and fever
@@ -114,9 +114,9 @@ All other Exploratory Data Analysis was done by Titilope.
 - Degree of freedom calculated at significance level α = 0.05
 - Symptom frequency analysis by COVID result (Positive vs. Negative)
 
--Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Saranya.
+**Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Saranya.**
 
-**Stage 3 — Data Modeling**
+**Data Modeling**
 - Features used: age, oxygen_level, body_temperature, fever, dry_cough, sore_throat, fatigue, headache, shortness_of_breath, loss_of_smell, loss_of_taste, chest_pain
 - 80/20 train-test split
 - Two models trained and compared:
@@ -125,7 +125,7 @@ All other Exploratory Data Analysis was done by Titilope.
 - Random Forest outperformed Logistic Regression, confirming that symptoms, oxygen level, body temperature, and age are strong predictors of COVID-19 diagnosis
 - Model evaluated using confusion matrix
 
-  Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Maisha.
+**Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Maisha.**
 
 **Stage 4 — Visualization**
 - Correlation heatmap across all features
@@ -141,7 +141,7 @@ All other Exploratory Data Analysis was done by Titilope.
 
 ## Key Findings
 
-- Overall COVID-19 positive rate: **~53.8%**
+- Overall COVID-19 positive rate: ~53.8%*
 - Most frequent symptoms: fatigue (59%), fever (57%), dry cough (49%)
 - Least frequent symptom: loss of taste (29%)
 - Patients with oxygen levels in the 85–89 range had the highest COVID-19 positive rate (~67.8%)
