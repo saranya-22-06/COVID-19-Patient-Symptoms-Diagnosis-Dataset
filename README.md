@@ -107,9 +107,15 @@ Every group member had their own version of import set up and introductory descr
 **All other Exploratory Data Analysis was done by Titilope.**
 
 **Statistical Analysis & Hypothesis Testing**
-- Chi-square test used to test the relationship between categorical variables and COVID-19 outcome
+- Chi-square test used to test the relationship between categorical variables gender and fever
 - Null Hypothesis: No relationship between gender and fever
 - Alternative Hypothesis: A relationship exists between gender and fever
+- Chi-square test used to test the relationship between categorical variables fever and COVID-19 outcome
+- Null Hypothesis: No relationship between covid_result and fever
+- Alternative Hypothesis: A relationship exists between covid_result and fever
+- Independent Two-Sample t-Test used to find relationship between continous numerical variables body_temperature and oxygen_level
+- Null Hypothesis: No relationship between body_temperature and oxygen_level
+- Alternative Hypothesis: A relationship exists between body_temperature and oxygen_level
 - Contingency table analysis with observed and expected values
 - Degree of freedom calculated at significance level α = 0.05
 - Symptom frequency analysis by COVID result (Positive vs. Negative)
