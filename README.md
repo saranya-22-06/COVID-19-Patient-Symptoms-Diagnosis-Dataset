@@ -123,17 +123,24 @@ Every group member had their own version of import set up and introductory descr
 **Note: All Statistical Analysis & Hypothesis Testing present in the Final Project Submission was done by Saranya.**
 
 **Data Modeling**
-- Features used: age, oxygen_level, body_temperature, fever, dry_cough, sore_throat, fatigue, headache, shortness_of_breath, loss_of_smell, loss_of_taste, chest_pain
-- 80/20 train-test split
-- Two models trained and compared:
-  - **Logistic Regression** (baseline) — Accuracy: **81.8%**
-  - **Random Forest** (advanced) — Accuracy: **86.1%**
-- Random Forest outperformed Logistic Regression, confirming that symptoms, oxygen level, body temperature, and age are strong predictors of COVID-19 diagnosis
-- Model evaluated using confusion matrix
+- Built two machine learning models to predict whether a patient was COVID-19 positive or negative.
+- Used age, oxygen level, body temperature, fever, dry cough, sore throat, fatigue, headache, shortness of breath, loss of smell, loss of taste, and chest pain as input features.
+- Used covid_result as the target variable (0 = Negative, 1 = Positive).
+- Split the dataset into **80% training data** and **20% testing data**.
+- Applied **Logistic Regression** as the baseline model.
+- Applied **Random Forest** as the advanced model.
+- Logistic Regression achieved **81.8% accuracy**.
+- Random Forest achieved **86.1% accuracy**.
+- Used a confusion matrix to evaluate the Random Forest model.
+- Confusion Matrix Results:
+  - **340 True Negatives** → correctly predicted negative patients.
+  - **136 False Positives** → negative patients predicted as positive.
+  - **148 False Negatives** → positive patients predicted as negative.
+  - **376 True Positives** → correctly predicted positive patients.
 
 **Note: All Data Modeling present in the Final Project Submission was done by Maisha.**
 
-**Stage 4 — Visualization**
+**Visualization**
 - Correlation heatmap across all features
 - Missing values heatmap
 - Symptom frequency bar charts
@@ -153,7 +160,11 @@ Every group member had their own version of import set up and introductory descr
 - Patients with oxygen levels in the 85–89 range had the highest COVID-19 positive rate (~67.8%)
 - Patients with normal oxygen levels (95–100) had the lowest positive rate (~33.5%)
 - Chi-square test revealed a statistically significant relationship between gender and fever at α = 0.05
-- Random Forest achieved 86.1% accuracy, outperforming Logistic Regression at 81.8%
+- Random Forest performed better than Logistic Regression by 4.3%.
+- Both models showed strong performance in predicting COVID-19 diagnosis.
+- The Random Forest model correctly classified 716 test samples.
+- Symptom and clinical features were useful predictors of COVID-19 status.
+
 
 ---
 
