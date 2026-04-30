@@ -139,10 +139,10 @@ Every group member had their own version of import set up and introductory descr
 - Random Forest achieved **86.1% accuracy**.
 - Used a confusion matrix to evaluate the Random Forest model.
 - Confusion Matrix Results:
-  - **340 True Negatives** → correctly predicted negative patients.
-  - **136 False Positives** → negative patients predicted as positive.
-  - **148 False Negatives** → positive patients predicted as negative.
-  - **376 True Positives** → correctly predicted positive patients.
+  - **457 True Negatives** → correctly predicted negative patients.
+  - **48 False Positives** → negative patients predicted as positive.
+  - **91 False Negatives** → positive patients predicted as negative.
+  - **404 True Positives** → correctly predicted positive patients.
 
 **Note: All Data Modeling present in the Final Project Submission was done by Maisha.**
 
@@ -168,7 +168,7 @@ Every group member had their own version of import set up and introductory descr
 - Chi-square test revealed a statistically significant relationship between gender and fever at α = 0.05
 - Random Forest performed better than Logistic Regression by 4.3%.
 - Both models showed strong performance in predicting COVID-19 diagnosis.
-- The Random Forest model correctly classified 716 test samples.
+- The Random Forest model correctly classified 861 test samples.
 - Symptom and clinical features were useful predictors of COVID-19 status.
 
 
