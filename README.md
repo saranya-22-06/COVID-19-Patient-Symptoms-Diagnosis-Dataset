@@ -82,6 +82,8 @@ COVID-19-Patient-Symptoms-Diagnosis-Dataset/
 |   |-- FinalSubmissionProject.ipynb     // Final Submission — combined work of all three group members
 |
 |-- report/
+|   |--Group 1 Final Project Report.docx // Project Report - combined work of all three group members
+|   |-- Group 1 Final Project Report.md  // md version of Project Report
 |-- README.md   Formatted by Titilope
 ```
 
